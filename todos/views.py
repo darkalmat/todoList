@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
-from user_serializers import UserSerializer, UserUpdateSerializer
+from .user_serializers import UserSerializer, UserUpdateSerializer
 from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response

@@ -41,6 +41,3 @@ class UserUpdateSerializer(serializers.ModelSerializer):
         user.email = validated_data.get('email', user.email)
         user.save()
         return user
-
-"""
-    """
